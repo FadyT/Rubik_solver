@@ -1,0 +1,39 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "rubik solver",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SolveIntent",
+                    "slots": [],
+                    "samples": [
+                        "solve the cube",
+                        "solve",
+                        "solve rubik cube",
+                        "solve rubik's cube",
+                        "solve the cube",
+                        "start",
+                        "start solving"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
